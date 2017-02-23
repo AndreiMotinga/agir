@@ -13,6 +13,7 @@ import Services from './components/pages/Services'
 import OurWork from './components/pages/OurWork'
 import Contacts from './components/pages/Contacts'
 
+import 'normalize.css' // todo: prost-prod either remove or move to proper place
 import './index.css';
 
 ReactDOM.render(
