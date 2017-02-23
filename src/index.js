@@ -6,7 +6,7 @@ import {
   Link
 } from 'react-router-dom'
 
-import Header from './components/Header'
+import Nav from './components/Nav'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Services from './components/pages/Services'
@@ -18,7 +18,7 @@ import './index.css';
 ReactDOM.render(
   <Router>
     <div>
-      <Header />
+      <Nav />
       <Route exact path="/" component={Home}/>
       <Route path="/about" component={About}/>
       <Route path="/services" component={Services}/>
