@@ -14,7 +14,7 @@ import OurWork from './components/pages/OurWork'
 import Contacts from './components/pages/Contacts'
 
 import 'normalize.css' // todo: prost-prod either remove or move to proper place
-import './index.css';
+import './css/index.css';
 
 ReactDOM.render(
   <Router>
