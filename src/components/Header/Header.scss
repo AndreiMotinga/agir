@@ -1,0 +1,13 @@
+$black: rgba(0, 0, 0, 0.87); // todo: move it to variables files
+
+.Header {
+  min-height: 200px;
+  border: 1px solid;
+
+  background-color: $black;
+
+  h1 {
+    text-align: center;
+    color: yellow;
+  }
+}
