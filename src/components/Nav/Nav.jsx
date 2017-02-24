@@ -11,7 +11,7 @@ const Nav = () => {
         <Link to="/services">SERVICES</Link>
         <ul className="Nav_submenu">
           <li><Link to="/services/security">Security</Link></li>
-          <li><Link to="/services/structure-wiring">Structure Wiring</Link></li>
+          <li><Link to="/services/structured-wiring">Structure Wiring</Link></li>
           <li><Link to="/services/window-treatment">Window Treatment</Link></li>
           <li><Link to="/services/interior-design">Interior Design</Link></li>
         </ul>

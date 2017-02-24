@@ -1,5 +1,6 @@
 {
   "categories": [
+
     { "security": [
       {
         "id": "alarm-systems",
@@ -18,12 +19,18 @@
         "text": "alram systems text"
       }
     ]},
+
+
     { "structured-wiring": [
 
     ]},
+
+
     { "window-treatments": [
 
     ]},
+
+
     { "interior-designing": [
 
     ]}

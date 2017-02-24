@@ -4,7 +4,7 @@ const Service = (props) => {
   return (
     <div className="Service">
       <h2>Service {props.id}</h2>
-      {props.data.toString()}
+      {JSON.stringify(props.service)}
     </div>
   )
 }
