@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Service from '../../Service'
 import './Services.css'
-import data from './services.json'
+import data from './data.json'
 
 const Services = ({ match }) => {
   const categories = data.categories.find((obj) => obj.id === match.params.id)

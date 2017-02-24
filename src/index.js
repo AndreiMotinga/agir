@@ -9,7 +9,8 @@ import Header from './components/Header'
 import Nav from './components/Nav'
 import Container from './components/Container'
 import Home from './components/pages/Home'
-import About from './components/pages/About'
+import Photos from './components/pages/Photos'
+import Videos from './components/pages/Videos'
 import Services from './components/pages/Services'
 import OurWork from './components/pages/OurWork'
 import Contacts from './components/pages/Contacts'
@@ -21,8 +22,9 @@ ReactDOM.render(
       <Nav />
       <Container>
         <Route exact path="/" component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/our-work" component={OurWork}/>
+        <Route exact path="/our-work" component={OurWork}/>
+        <Route path="/our-work/photos" component={Photos}/>
+        <Route path="/our-work/videos" component={Videos}/>
         <Route path="/contacts" component={Contacts}/>
         <Route path="/services/:id" component={Services}/>
       </Container>
