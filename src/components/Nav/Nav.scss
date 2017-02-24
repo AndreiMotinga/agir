@@ -1,2 +1,27 @@
+$black: black;
+$border: 1px solid $black;
 .Nav {
+  display: flex;
+  justify-content: center;
+  border-top: $border;
+  border-bottom: $border;
+
+  background-image: linear-gradient(to top center, gray, black);
+}
+
+.Nav > li {
+  border-left: $border;
+}
+
+.Nav > li:first-child {
+  border: 0;
+}
+
+.Nav > li > a {
+  display: block;
+  padding: 1rem 2rem ;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }

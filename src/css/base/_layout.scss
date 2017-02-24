@@ -1,0 +1,23 @@
+// todo: extract colors
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: radial-gradient(circle , gray, black);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+

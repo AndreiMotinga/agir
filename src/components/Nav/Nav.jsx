@@ -5,11 +5,11 @@ import './Nav.css'
 const Nav = () => {
   return (
     <ul className="Nav">
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/services">Services</Link></li>
-      <li><Link to="/our-work">Our Work</Link></li>
-      <li><Link to="/contacts">Contacts</Link></li>
+      <li><Link to="/">HOME</Link></li>
+      <li><Link to="/about">ABOUT</Link></li>
+      <li><Link to="/services">SERVICES</Link></li>
+      <li><Link to="/our-work">OUR WORK</Link></li>
+      <li><Link to="/contacts">CONTACTS</Link></li>
     </ul>
   )
 }
