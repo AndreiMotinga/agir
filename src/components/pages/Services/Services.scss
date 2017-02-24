@@ -1,0 +1,12 @@
+.Services {
+  border: 1px solid white;
+  display: flex;
+}
+
+.Services_service {
+  flex-grow: 3
+}
+
+.Services_sidebar {
+  flex-grow: 1
+}

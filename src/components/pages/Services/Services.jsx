@@ -1,12 +1,24 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import Service from '../../Service'
+import './Services.css'
 
-const Services = () => {
+const Services = ({ match }) => {
   return (
-    <div>
-      <h2>Services</h2>
-      <p>Adipisicing optio temporibus eos asperiores dolor itaque necessitatibus consequatur numquam! Ex tempora aspernatur cumque odit numquam hic aspernatur amet temporibus? Recusandae amet ratione maxime quibusdam consectetur hic ipsum sint? Rem.</p>
-      <p>Adipisicing minus nobis commodi culpa earum? Dolorem necessitatibus ratione mollitia ipsa ad, excepturi ipsa officiis libero voluptates dolore error totam. Sunt quod porro ea omnis voluptatem! Repellat ratione eaque quis.</p>
-      <p>Lorem facilis velit ratione reprehenderit totam earum. Accusantium nisi ad voluptatem doloremque omnis labore temporibus facilis harum non minus! Officiis libero doloribus nobis expedita sed quibusdam temporibus officiis asperiores eveniet.</p>
+    <div className="Services">
+      <div className="Services_service">
+        <h2>Services {match.params.id}</h2>
+        <Service id={match.params.id}/>
+      </div>
+      <div className="Services_sidebar">
+        <h3>Sidebar</h3>
+        <ul>
+          <li><Link to="/services/security">Security</Link></li>
+          <li><Link to="/services/structure-wiring">Structure Wiring</Link></li>
+          <li><Link to="/services/window-treatment">Window Treatment</Link></li>
+          <li><Link to="/services/interior-design">Interior Design</Link></li>
+        </ul>
+      </div>
     </div>
   )
 }

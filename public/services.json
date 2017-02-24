@@ -1,0 +1,31 @@
+{
+  "categories": [
+    { "security": [
+      {
+        "id": "alarm-systems",
+        "text": "alram systems text"
+      },
+      {
+        "id":  "security-cameras",
+        "text": "alram systems text"
+      },
+      {
+        "id":  "intercoms",
+        "text": "alram systems text"
+      },
+      {
+        "id":  "access-control",
+        "text": "alram systems text"
+      }
+    ]},
+    { "structured-wiring": [
+
+    ]},
+    { "window-treatments": [
+
+    ]},
+    { "interior-designing": [
+
+    ]}
+  ]
+}

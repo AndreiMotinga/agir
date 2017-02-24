@@ -1,0 +1,11 @@
+$base-spacing: 10px;
+
+.Container {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: $base-spacing;
+  max-width: 900px;
+}
