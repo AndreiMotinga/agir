@@ -2,9 +2,8 @@ $black: rgba(0, 0, 0, 0.87); // todo: move it to variables files
 
 .Header {
   min-height: 200px;
-  border: 1px solid;
-
   background-color: $black;
+  background-image: url('../../img/bg-head.png');
 
   h1 {
     text-align: center;
