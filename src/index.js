@@ -3,11 +3,7 @@ import './css/index.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 
 import Header from './components/Header'
 import Nav from './components/Nav'
@@ -19,7 +15,7 @@ import OurWork from './components/pages/OurWork'
 import Contacts from './components/pages/Contacts'
 
 ReactDOM.render(
-  <Router>
+  <BrowserRouter>
     <div>
       <Header />
       <Nav />
@@ -31,6 +27,6 @@ ReactDOM.render(
         <Route path="/services/:id" component={Services}/>
       </Container>
     </div>
-  </Router>,
+  </BrowserRouter>,
   document.getElementById('root')
 )
