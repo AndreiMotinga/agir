@@ -17,7 +17,6 @@ import About from './components/pages/About'
 import Services from './components/pages/Services'
 import OurWork from './components/pages/OurWork'
 import Contacts from './components/pages/Contacts'
-import data from '../public/services.json'
 
 ReactDOM.render(
   <Router>
