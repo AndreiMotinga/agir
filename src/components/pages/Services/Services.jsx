@@ -5,15 +5,16 @@ import './Services.css'
 import data from './services.json'
 
 const Services = ({ match }) => {
-  const service = data.categories.find((obj) => {
-    return Object.keys(obj)[0] === match.params.id
-  })
+  const categories = data.categories.find((obj) => obj.id === match.params.id)
+    const services = categories.services.map((s, i) => (
+      <Service service={s} key={i} />)
+    )
 
   return (
     <div className="Services">
       <div className="Services_service">
         <h2>Services {match.params.id}</h2>
-        <Service service={service} />
+        {services}
       </div>
       <div className="Services_sidebar">
         <h3>Sidebar</h3>
