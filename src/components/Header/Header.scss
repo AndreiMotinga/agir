@@ -1,12 +1,64 @@
 $black: rgba(0, 0, 0, 0.87); // todo: move it to variables files
+$yellow: rgb(247, 198, 9);
 
 .Header {
-  min-height: 200px;
   background-color: $black;
   background-image: url('../../img/bg-head.png');
+  background-position: center;
 
-  h1 {
-    text-align: center;
-    color: yellow;
+  .Header_brand {
+    display: flex;
+    justify-content: center;
+
+    background-image: none, linear-gradient(90deg, $black, $yellow);
+    background-size: 100% 10px; /* This get flipped. */
+    background-position: 0 0, 0 100%; /* The last argument gets flipped. */
+    background-repeat: no-repeat;
+
+    .Header_agir {
+      height: 160px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 80%;
+        height: auto;
+        margin: 50px;
+
+        @media screen and (max-width: 500px) {
+          margin-top: 5px;
+        }
+      }
+
+      .is-up {
+        width: 100%;
+        margin-top: 20px;
+
+        transition: all 3s;
+      }
+    }
+
+    .Header_title {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-bottom: 15px;
+      color: $yellow;
+
+      .is-moving-left {
+        transform: translateY();
+      }
+
+      h1 {
+        font-size: 1.5em;
+        letter-spacing: 5px;
+        margin-bottom: 5px;
+      }
+      small {
+        letter-spacing: 1px;
+      }
+    }
   }
 }
