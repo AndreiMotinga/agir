@@ -12,10 +12,6 @@ const Services = ({ match }) => {
 
   return (
     <div className="Services">
-      <div className="Services_service">
-        <h2>Services {match.params.id}</h2>
-        {services}
-      </div>
       <div className="Services_sidebar">
         <h3>Sidebar</h3>
         <ul>
@@ -24,6 +20,10 @@ const Services = ({ match }) => {
           <li><Link to="/services/window-treatment">Window Treatment</Link></li>
           <li><Link to="/services/interior-design">Interior Design</Link></li>
         </ul>
+      </div>
+      <div className="Services_service">
+        <h2>Services {match.params.id}</h2>
+        {services}
       </div>
     </div>
   )
