@@ -1,5 +1,4 @@
-$black: rgba(0, 0, 0, 0.87); // todo: move it to variables files
-$yellow: rgb(247, 198, 9);
+@import '../../css/base/variables';
 
 .Header {
   background-color: $black;
@@ -10,7 +9,7 @@ $yellow: rgb(247, 198, 9);
     display: flex;
     justify-content: center;
 
-    background-image: none, linear-gradient(90deg, $black, $yellow);
+    background-image: none, linear-gradient(90deg, $black, $darkyellow);
     background-size: 100% 10px; /* This get flipped. */
     background-position: 0 0, 0 100%; /* The last argument gets flipped. */
     background-repeat: no-repeat;
@@ -45,7 +44,7 @@ $yellow: rgb(247, 198, 9);
       flex-direction: column;
       justify-content: flex-end;
       padding-bottom: 15px;
-      color: $yellow;
+      color: $darkyellow;
 
       .is-moving-left {
         transform: translateY();

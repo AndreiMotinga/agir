@@ -1,4 +1,5 @@
 import React from 'react';
+import './Service.css'
 
 const Service = (props) => {
   const { title, text } = props.service

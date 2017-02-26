@@ -1,12 +1,7 @@
-.Services {
-  color: white;
-  border: 1px solid white;
-  display: flex;
+@import '../../../css/base/variables';
 
-  p {
-    font-family: 'Arial';
-    color: #797979;
-  }
+.Services {
+  display: flex;
 }
 
 .Services_service {
@@ -16,4 +11,24 @@
 .Services_sidebar {
   min-width: 200px;
   flex-grow: 1
+}
+
+.Services_sidebar_menu {
+  a {
+    display: block;
+    text-decoration: none;
+    font-family: Arial;
+    color: $gray;
+    background-color: transparent;
+    font-size: 14px;
+    padding: $base-spacing;
+    transition: all 0.5s ease-out;
+
+
+    &:hover {
+      color: $black;
+      background-color: $darkyellow;
+      transform: translateX(10px);
+    }
+  }
 }

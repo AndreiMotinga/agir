@@ -1,7 +1,4 @@
-$black: black;
-$border: 1px solid $black;
-$darkyellow: #f7c609;
-$yellow: #ffff00;
+@import '../../css/base/variables';
 
 .Nav {
   border-bottom: $border;
