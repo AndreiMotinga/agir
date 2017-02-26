@@ -15,7 +15,7 @@ const Nav = () => {
           </ul>
         </li>
         <li>
-          <Link to="/services">SERVICES</Link>
+          <a href="javascript:void(0)">SERVICES</a>
           <ul className="Nav_menu_submenu">
             <li><Link to="/services/security">Security</Link></li>
             <li><Link to="/services/structured-wiring">Structure Wiring</Link></li>
@@ -24,7 +24,7 @@ const Nav = () => {
           </ul>
         </li>
         <li><Link to="/contacts">CONTACT US</Link></li>
-        <li><a href="//facebook.com">NEWS</a></li>
+        <li><a href="#">NEWS</a></li>
       </ul>
     </nav>
   )
