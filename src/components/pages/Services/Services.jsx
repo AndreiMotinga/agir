@@ -24,7 +24,6 @@ const Services = ({ match }) => {
         </Panel>
       </div>
       <div className="Services_service">
-        <h2>Services {match.params.id}</h2>
         {services}
       </div>
     </div>
