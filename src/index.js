@@ -7,6 +7,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 import Header from './components/Header'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 import Container from './components/Container'
 import Home from './components/pages/Home'
 import Photos from './components/pages/Photos'
@@ -28,6 +29,7 @@ ReactDOM.render(
         <Route path="/contacts" component={Contacts}/>
         <Route path="/services/:id" component={Services}/>
       </Container>
+      <Footer />
     </div>
   </BrowserRouter>,
   document.getElementById('root')

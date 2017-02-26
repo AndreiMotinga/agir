@@ -1,7 +1,8 @@
-.Service {
+@import '../../css/base/variables';
 
+.Service {
   p {
     font-family: 'Arial';
-    color: #797979;
+    color: $gray;
   }
 }

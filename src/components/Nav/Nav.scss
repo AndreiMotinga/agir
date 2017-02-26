@@ -9,6 +9,7 @@
   justify-content: center;
 
   & > li {
+    font-family: 'Orbitron';
     border-left: $border;
 
     &:first-child {
@@ -32,10 +33,15 @@
     & > a {
       display: block;
       padding: 1rem 2rem ;
-      color: white;
+      color: $gray;
       font-size: 14px;
       font-weight: bold;
       text-decoration: none;
+      transition: color 0.5s;
+
+      &:hover {
+        color: $white;
+      }
     }
   }
 
