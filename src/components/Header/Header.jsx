@@ -26,8 +26,8 @@ class Header extends React.Component {
 
     return (
       <div className="Header">
-        <div className="Header_brand">
-          <div className="Header_agir">
+        <div className="Header_content">
+          <div className="Header_img">
             <img
               className={isUp}
               src={logo}
@@ -35,11 +35,12 @@ class Header extends React.Component {
               onLoad={this.handleImageLoaded}
             />
           </div>
-          <div className="Header_title">
-            <h1>Agir</h1>
-            <small>security solutions inc</small>
-          </div>
+          <h1 className="Header_text">
+            <span className="name">Agir</span>
+            <span className="small">Security Solutions Inc</span>
+          </h1>
         </div>
+        <div className="Header_borderBottom"></div>
       </div>
     )
   }
