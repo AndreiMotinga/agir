@@ -5,7 +5,7 @@ const Panel = (props) => {
   return (
     <div className="Panel">
       <div className="Panel_header">
-        <h3>{props.title}</h3>
+        <h3 className="Panel_title">{props.title}</h3>
       </div>
       <div className="Panel_body">
         {props.children}

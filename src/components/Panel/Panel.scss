@@ -1,23 +1,13 @@
 @import '../../css/base/variables';
 
-// .Panel {
-//
-//   border-radius: 5px;
-//   border: 1px solid $lightgray;;
-//   margin: $base-spacing;
-//   padding: $base-spacing;
-//
-//   .Panel_header {
-//     border-bottom: 1px solid gray;
-//
-//     h3 {
-//       font-family: 'Orbitron';
-//       color: white;
-//       margin-top: $base-spacing;
-//     }
-//   }
-//
-//   .Panel_body {
-//     padding: $base-spacing;
-//   }
-// }
+.Panel {
+  border: $base-border;
+  border-radius: $base-border-radius;
+  margin-bottom: $base-spacing;
+  padding: $base-spacing;
+
+  .Panel_title {
+    border-bottom: $base-border;
+    padding-bottom: $small-spacing;
+  }
+}

@@ -7,7 +7,7 @@ const Service = (props) => {
   return (
     <div className="Service">
       <Panel title={title}>
-        <p>{text}</p>
+        {text}
       </Panel>
     </div>
   )
