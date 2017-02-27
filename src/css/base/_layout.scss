@@ -19,3 +19,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+main {
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: $base-spacing;
+  max-width: 900px;
+}
