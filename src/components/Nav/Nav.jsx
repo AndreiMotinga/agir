@@ -23,7 +23,7 @@ const Nav = () => {
             <li><Link to="/services/interior-design">INTERIOR DESIGN</Link></li>
           </ul>
         </li>
-        <li><Link to="/contacts">CONTACT US</Link></li>
+        <li><Link to="/contacts">CONTACTS</Link></li>
         <li><a href="#">NEWS</a></li>
       </ul>
     </nav>
