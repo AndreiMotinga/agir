@@ -1,9 +1,9 @@
 // Breakpoints
-// $medium-screen: 600px;
-// $large-screen: 900px;
+$medium-screen: 600px;
+$large-screen: 900px;
 
 // Typography
-$base-font-family: 'Arial';
+$base-font-family: 'Arial'; //todo : add more robust Typography
 $heading-font-family: 'Orbitron';
 
 // Font Sizes
@@ -27,13 +27,13 @@ $black: black;
 $yellow: #ffff00;
 $darkyellow: #f7c609;
 
-// $lightgray: rgba(192, 192, 192, 0.16);
-// $gray: #c0c0c0;
-$lightgray: #ddd;
-$gray: #999;
+// todo fix duplicated colors
+$lightgray: rgba(192, 192, 192, 0.16);
+$gray: #c0c0c0;
 $darkgray: #333;
-
-$border: 1px solid $black;
+$dark-gray: #333;
+$gray: #999;
+$light-gray: #ddd;
 
 // Font Colors
 $base-font-color: $dark-gray;
@@ -44,9 +44,16 @@ $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: $black;
+$base-background-color: #fff;
 $secondary-background-color: tint($base-border-color, 75%);
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
+// my
+$box-shadow: 0 2px 4px darken($base-background-color, 10%)
