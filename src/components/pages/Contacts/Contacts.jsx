@@ -1,5 +1,6 @@
 import React from 'react';
 import Panel from '../../Panel'
+import './Contacts.css'
 
 const Contacts = () => {
   return (
@@ -19,11 +20,13 @@ const Contacts = () => {
       </div>
       <div className="Contacts_form">
         <Panel title="Contact Form">
-          <form action="">
-            <input type="text" name="name"/>
-            <input type="email" name="email"/>
-            <input type="phone" name="phone"/>
-            <textarea id="" name="body" cols="30" rows="10"></textarea>
+          <form action="https://formspree.io/andrew.motinga@gmail.com"
+                method='post'>
+            <input type="text" name="name"required />
+            <input type="email" name="email"required />
+            <input type="phone" name="phone"required />
+            <textarea id="" name="body" cols="30" rows="10" required ></textarea>
+            <button type="Submit">Send</button>
           </form>
         </Panel>
       </div>
