@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './Header.css'
 import logo from '../../img/agir.png';
 
@@ -28,12 +29,14 @@ class Header extends React.Component {
       <div className="Header">
         <div className="Header_content">
           <div className="Header_img">
-            <img
-              className={isUp}
-              src={logo}
-              alt="Agir solutions"
-              onLoad={this.handleImageLoaded}
-            />
+            <Link to="/">
+              <img
+                className={isUp}
+                src={logo}
+                alt="Agir solutions"
+                onLoad={this.handleImageLoaded}
+              />
+            </Link>
           </div>
           <h1 className="Header_text">
             <span className="name">Agir</span>
