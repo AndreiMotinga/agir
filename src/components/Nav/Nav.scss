@@ -1,83 +1,83 @@
 @import '../../css/base/variables';
-$border: 1px solid $black;
+// $border: 1px solid $black;
 
-.Nav {
-  border-bottom: $border;
-}
-
-.Nav_menu {
-  display: flex;
-  justify-content: center;
-
-  & > li {
-    font-family: 'Orbitron';
-    border-left: $border;
-
-    &:first-child {
-      border: 0;
-    }
-
-    &:hover ul {
-      transform: scale(1,1);
-    }
-  }
-}
-
-.Nav_menu {
-  & > li {
-    position: relative;
-
-    &:hover {
-      background-color: $black;
-    }
-
-    & > a {
-      display: block;
-      padding: 1rem 2rem ;
-      color: $gray;
-      font-size: 14px;
-      font-weight: bold;
-      text-decoration: none;
-      transition: color 0.5s;
-
-      &:hover {
-        color: $white;
-      }
-    }
-  }
-
-  ul {
-    transform: scale(1, 0);
-    transform-origin: top center;
-    transition: 0.2s linear 50ms;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    padding: 0;
-    margin: 0;
-  }
-}
-
-.Nav_menu_submenu {
-  min-width: 220px;
-  font-size: 14px;
-  letter-spacing: 1px;
-
-  & > li {
-    margin: 2px 0;
-    border: $border;
-
-    & > a {
-      display: block;
-      text-decoration: none;
-      color: white;
-      padding: 10px 20px;
-
-      &:hover {
-        background: $darkyellow;
-        color: black;
-        transition: color, background 0.5s ease;
-      }
-    }
-  }
-}
+// .Nav {
+//   border-bottom: $border;
+// }
+//
+// .Nav_menu {
+//   display: flex;
+//   justify-content: center;
+//
+//   & > li {
+//     font-family: 'Orbitron';
+//     border-left: $border;
+//
+//     &:first-child {
+//       border: 0;
+//     }
+//
+//     &:hover ul {
+//       transform: scale(1,1);
+//     }
+//   }
+// }
+//
+// .Nav_menu {
+//   & > li {
+//     position: relative;
+//
+//     &:hover {
+//       background-color: $black;
+//     }
+//
+//     & > a {
+//       display: block;
+//       padding: 1rem 2rem ;
+//       color: $gray;
+//       font-size: 14px;
+//       font-weight: bold;
+//       text-decoration: none;
+//       transition: color 0.5s;
+//
+//       &:hover {
+//         color: $white;
+//       }
+//     }
+//   }
+//
+//   ul {
+//     transform: scale(1, 0);
+//     transform-origin: top center;
+//     transition: 0.2s linear 50ms;
+//     position: absolute;
+//     top: 100%;
+//     left: 0;
+//     padding: 0;
+//     margin: 0;
+//   }
+// }
+//
+// .Nav_menu_submenu {
+//   min-width: 220px;
+//   font-size: 14px;
+//   letter-spacing: 1px;
+//
+//   & > li {
+//     margin: 2px 0;
+//     border: $border;
+//
+//     & > a {
+//       display: block;
+//       text-decoration: none;
+//       color: white;
+//       padding: 10px 20px;
+//
+//       &:hover {
+//         background: $darkyellow;
+//         color: black;
+//         transition: color, background 0.5s ease;
+//       }
+//     }
+//   }
+// }

@@ -1,34 +1,34 @@
 @import '../../../css/base/variables';
 
-.Services {
-  display: flex;
-}
-
-.Services_service {
-  flex-grow: 3
-}
-
-.Services_sidebar {
-  min-width: 200px;
-  flex-grow: 1
-}
-
-.Services_sidebar_menu {
-  a {
-    display: block;
-    text-decoration: none;
-    font-family: Arial;
-    color: $gray;
-    background-color: transparent;
-    font-size: 14px;
-    padding: $base-spacing;
-    transition: all 0.5s ease-out;
-
-
-    &:hover {
-      color: $black;
-      background-color: $darkyellow;
-      transform: translateX(10px);
-    }
-  }
-}
+// .Services {
+//   display: flex;
+// }
+//
+// .Services_service {
+//   flex-grow: 3
+// }
+//
+// .Services_sidebar {
+//   min-width: 200px;
+//   flex-grow: 1
+// }
+//
+// .Services_sidebar_menu {
+//   a {
+//     display: block;
+//     text-decoration: none;
+//     font-family: Arial;
+//     color: $gray;
+//     background-color: transparent;
+//     font-size: 14px;
+//     padding: $base-spacing;
+//     transition: all 0.5s ease-out;
+//
+//
+//     &:hover {
+//       color: $black;
+//       background-color: $darkyellow;
+//       transform: translateX(10px);
+//     }
+//   }
+// }
