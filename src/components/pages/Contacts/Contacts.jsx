@@ -22,15 +22,29 @@ const Contacts = () => {
         <Panel title="Contact Form">
           <form action="https://formspree.io/andrew.motinga@gmail.com"
                 method='post'>
-            <input type="text" name="name"required />
-            <input type="email" name="email"required />
-            <input type="phone" name="phone"required />
-            <textarea id="" name="body" cols="30" rows="10" required ></textarea>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name: "
+                  required />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email:"
+                  required />
+                <input
+                  type="phone"
+                  name="phone"
+                  placeholder="Phone:"
+                  required />
+                <textarea
+                  name="body"
+                  placeholder="Message:"
+                  required ></textarea>
             <button type="Submit">Send Message</button>
           </form>
         </Panel>
       </div>
-
     </div>
   )
 }
