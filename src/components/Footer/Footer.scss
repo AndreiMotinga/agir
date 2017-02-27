@@ -1,39 +1,49 @@
 @import '../../css/base/variables';
 
-// .Footer {
-//   padding: $base-spacing * 2;
-//   border: 1px solid white;
-//
-//   color: $gray;
-// }
-//
-// .Footer_body {
-//   display: flex;
-//   justify-content: space-between;
-// }
-//
-// .Footer_body_address {
-//   border: 1px solid red;
-// }
-//
-// .Footer_body_links {
-//   border: 1px solid blue;
-//   margin-bottom: $base-spacing * 2;
-//
-//   li {
-//     display: inline;
-//     a {
-//       padding: $base-spacing;
-//       border-radius: 50%;
-//       &:hover {
-//         background-color: $darkyellow;
-//       }
-//     }
-//   }
-// }
-//
-// .Footer_body_address,
-// .Footer_body_links {
-//   border: 1px solid red;
-//   padding: $base-spacing;
-// }
+.Footer {
+  padding: $base-spacing * 2;
+  margin: $base-spacing * 2;
+  display: flex;
+  border-top: $base-border;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    font-family: $base-font-family;
+  }
+}
+
+.Footer_links {
+  align-self: flex-end;
+
+  li {
+    display: inline-block;
+    padding: $small-spacing;
+
+    a {
+      padding: $small-spacing;
+      border-radius: 50%;
+      color: $action-color;
+
+      &:hover {
+        background: darken($yellow, 10%);
+        color: $black;
+        transition: color, background 0.5s $base-timing;
+      }
+    }
+  }
+
+  .ezworks {
+    color: $base-font-color;
+
+    &:hover {
+      color: $action-color;
+      transition: color $base-duration $base-timing;
+    }
+  }
+}
