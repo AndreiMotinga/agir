@@ -21,7 +21,7 @@ button {
 
   &:hover,
   &:focus {
-    background-color: shade($action-color, 20%);
+    background-color: darken($action-color, 10%);
     color: #fff;
   }
 
