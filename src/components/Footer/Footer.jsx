@@ -19,9 +19,12 @@ const Footer = () => {
       <div className="Footer_links">
         <div className="Footer_body_social">
           <ul>
-            <li><a href="javscript:void(0)">fb</a></li>
-            <li><a href="javscript:void(0)">gl</a></li>
-            <li><a href="javscript:void(0)">tw</a></li>
+            <li><a href="" className="social-icon"> <i class="fa fa-facebook"></i></a></li>
+            <li><a href="" className="social-icon"> <i class="fa fa-twitter"></i></a></li>
+            <li><a href="" className="social-icon"> <i class="fa fa-rss"></i></a></li>
+            <li><a href="" className="social-icon"> <i class="fa fa-youtube"></i></a></li>
+            <li><a href="" className="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+            <li><a href="" className="social-icon"> <i class="fa fa-google-plus"></i></a></li>
           </ul>
         </div>
         <div className="Footer_body_ezworks">
