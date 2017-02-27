@@ -21,15 +21,17 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-// $white: white;
-// $black: black;
+$white: white;
+
+$light-black: rgba(0, 0, 0, 0.21);
+$black: black;
 
 $yellow: #f7c609;
 // $dark-yellow: ;
 
 $light-gray: #797979;
 $gray: rgba(192, 192, 192, 0.16);
-// $dark-gray: #333;
+$dark-gray: #1a1919;
 
 // Font Colors
 $base-font-color: $light-gray;

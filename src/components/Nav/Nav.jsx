@@ -10,17 +10,17 @@ const Nav = () => {
         <li>
           <a href="#">OUR WORK</a>
           <ul className="Nav_menu_submenu">
-            <li><Link to="/our-work/photos">Photos</Link></li>
-            <li><Link to="/our-work/videos">Videos</Link></li>
+            <li><Link to="/our-work/photos">PHOTOS</Link></li>
+            <li><Link to="/our-work/videos">VIDEOS</Link></li>
           </ul>
         </li>
         <li>
           <a href="#">SERVICES</a>
           <ul className="Nav_menu_submenu">
-            <li><Link to="/services/security">Security</Link></li>
-            <li><Link to="/services/structured-wiring">Structure Wiring</Link></li>
-            <li><Link to="/services/window-treatment">Window Treatment</Link></li>
-            <li><Link to="/services/interior-design">Interior Design</Link></li>
+            <li><Link to="/services/security">SECURITY</Link></li>
+            <li><Link to="/services/structured-wiring">STRUCTURE WIRING</Link></li>
+            <li><Link to="/services/window-treatment">WINDOW TREATMENT</Link></li>
+            <li><Link to="/services/interior-design">INTERIOR DESIGN</Link></li>
           </ul>
         </li>
         <li><Link to="/contacts">CONTACT US</Link></li>
