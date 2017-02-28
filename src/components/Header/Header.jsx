@@ -35,10 +35,10 @@ class Header extends React.Component {
               alt="Agir solutions"
               onLoad={this.handleImageLoaded}
             />
+            <h1 className="Header_text">
+              <span className="name">Agir</span> <span>Security Solutions Inc</span>
+            </h1>
           </Link>
-          <h1 className="Header_text">
-            <span className="name">Agir</span> <span>Security Solutions Inc</span>
-          </h1>
           <a className="Header_phone" href="tel:1-718-676-0564">
             <h3>+1(718)676-0564</h3>
             <h6>9:00 AM - 7:00 PM</h6>
