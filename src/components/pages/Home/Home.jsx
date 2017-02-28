@@ -20,12 +20,13 @@ class Home extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ mounted: true })
-    }, 3000)
+    }, 2500)
   }
 
-  componentWillUnmount () {
-    this.timeouts.forEach(clearTimeout);
-  }
+  // componentWillUnmount () {
+  //   let timeouts = this.timeouts
+  //   if(timeouts && timeouts.length) timeouts.forEach(clearTimeout);
+  // }
 
   render () {
     const details = {
@@ -50,7 +51,7 @@ class Home extends React.Component {
         >
           <div>
             <div className="slide_text">
-              <h2 className="slide_title">Electrical Work for Homeowners</h2>
+              <h1 className="slide_title">Electrical Work <span className="sm-hidden">for<br/>Homeowners</span></h1>
               <ul className="slide_list">
                 <li className="slide_list_item">Rewire a house, new lighting</li>
                 <li className="slide_list_item">Installations of household items</li>
@@ -63,7 +64,7 @@ class Home extends React.Component {
           </div>
           <div>
             <div className="slide_text">
-              <h2 className="slide_title">Installation Services</h2>
+              <h1 className="slide_title">Installation Services</h1>
               <ul className="slide_list">
                 <li className="slide_list_item">TV</li>
                 <li className="slide_list_item">Security Cameras</li>
@@ -77,7 +78,7 @@ class Home extends React.Component {
           </div>
           <div>
             <div className="slide_text">
-              <h2 className="slide_title">Maintenance</h2>
+              <h1 className="slide_title">Maintenance</h1>
               <ul className="slide_list">
                 <li className="slide_list_item">Emergency calls</li>
                 <li className="slide_list_item">Troubleshooting</li>

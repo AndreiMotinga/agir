@@ -54,10 +54,6 @@
   // hide HOME & NEWS links on smaller screens
   // and remove next link's border
   @media screen and(max-width: 700px) {
-    .sm-hidden {
-      display: none;
-    }
-
     .sm-hidden + li {
       border: 0;
     }
