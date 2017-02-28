@@ -1,11 +1,36 @@
+@import '../../../css/base/variables';
+
 .Contacts {
   display: flex;
+  flex-wrap: wrap;
+
 }
 
-.Contacts_map {
+.Contacts_address,
+.Contacts_form {
+  margin: $small-spacing;
+}
 
+.Contacts_address {
+  flex: 1;
 }
 
 .Contacts_form {
+  flex: 2;
+}
 
+.Contacts_map {
+    position: relative;
+    padding-left: $small-spacing;
+    padding-bottom: 50%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    filter: grayscale(100%);
+}
+.Contacts_map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
