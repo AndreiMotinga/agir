@@ -18,16 +18,18 @@ const Footer = () => {
       <div className="Footer_links">
         <div className="Footer_body_social">
           <ul>
-            <li><a href="" className="social-icon"> <i className="fa fa-youtube"></i></a></li>
-            <li><a href="" className="social-icon"> <i className="fa fa-google"></i></a></li>
-            <li><a href="" className="social-icon"> <i className="fa fa-facebook"></i></a></li>
-            <li><a href="" className="social-icon"> <i className="fa fa-twitter"></i></a></li>
-            <li><a href="" className="social-icon"> <i className="fa fa-linkedin"></i></a></li>
+            <li><a href="" className="social-icon" target="_blank"> <i className="fa fa-youtube"></i></a></li>
+            <li><a href="" className="social-icon" target="_blank"> <i className="fa fa-google"></i></a></li>
+            <li><a href="https://www.facebook.com/search/top/?q=agir%20security%20solution"
+                   className="social-icon" target="_blank"> <i className="fa fa-facebook"></i></a></li>
+            <li><a href="" className="social-icon" target="_blank"> <i className="fa fa-twitter"></i></a></li>
+            <li><a href="" className="social-icon" target="_blank"> <i className="fa fa-linkedin"></i></a></li>
+
           </ul>
         </div>
         <div className="Footer_body_ezworks">
           <small>
-            Designed by <a className="ezworks" href="//ezworks.online">ezworks.online</a>
+            Designed by <a target="_blank" className="ezworks" href="//ezworks.online">ezworks.online</a>
           </small>
         </div>
       </div>
