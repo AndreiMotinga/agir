@@ -3,6 +3,10 @@
 .Home {
   .carousel {
     margin-bottom: $base-spacing;
+
+    @media screen and(max-width: 610px) {
+      display: none;
+    }
   }
 
   .slide:first-child {
@@ -31,11 +35,5 @@
       padding-left: $base-spacing;
       list-style-position: inside;
     }
-  }
-}
-
-@media screen and(max-width: 610px) {
-  .carousel {
-    display: none;
   }
 }
