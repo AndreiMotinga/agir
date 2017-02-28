@@ -8,42 +8,26 @@ const Contacts = () => {
     <div className="Contacts">
       <div className="Contacts_form">
         <Panel title="Contact Form">
-          <form action="https://formspree.io/andrew.motinga@gmail.com"
-                method='post'>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Name: "
-                  required />
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email:"
-                  required />
-                <input
-                  type="phone"
-                  name="phone"
-                  placeholder="Phone:"
-                  required />
-                <textarea
-                  name="body"
-                  rows="10"
-                  placeholder="Message:"
-                  required ></textarea>
+          <form action="https://formspree.io/andrew.motinga@gmail.com" method='post'>
+            <input type="text" name="name" placeholder="Name: " required />
+            <input type="email" name="email" placeholder="Email:" required />
+            <input type="phone" name="phone" placeholder="Phone:" required />
+            <textarea name="body" rows="10" placeholder="Message:" required ></textarea>
             <button className="btn" type="Submit">Send Message</button>
           </form>
         </Panel>
       </div>
       <div className="Contacts_address">
         <Panel title="Address">
-          <p>
-            2755 Harway Ave. <br/>
-            Brooklyn, NY 11214
-          </p>
-          <p>
-            Phone: +1 (718) 676-0564<br/>
-            Email: agirssinc@gmail.com
-          </p>
+          <strong>Agir Security Solutions Inc.</strong>
+          <a href="http://maps.google.com/?q=2755+Harway+Ave+Brooklyn+NY"
+             target="_blank" >
+            {' '}
+            <em>2755 Harway Ave, Brooklyn, NY 11214</em>
+          </a>
+          <br />
+          <i className="fa fa-phone"></i> <a href="tel:1-718-676-0564">1(718) 676-0564<br/></a>
+          <i className="fa fa-envelope-o"></i> <a href="mailto:agirssinc@gmail.com">agirssinc@gmail.com</a>
         </Panel>
       </div>
       </div>
