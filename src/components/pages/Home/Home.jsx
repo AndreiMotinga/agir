@@ -2,6 +2,7 @@ import React from 'react';
 import Service from '../../Service'
 import  { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.css'
+import './Home.css'
 
 import slide1 from '../../../img/carousel/slide-1.png'
 import slide2 from '../../../img/carousel/slide-2.png'
@@ -14,7 +15,7 @@ const Home = (props) => {
   }
 
   return (
-    <div>
+    <div className="Home">
       <Carousel
         showArrows
         showThumbs={false}
@@ -22,12 +23,41 @@ const Home = (props) => {
         infiniteLoop
       >
         <div>
+          <div className="slide_text">
+            <h2 className="slide_title">Electrical Work for Homeowners</h2>
+            <ul className="slide_list">
+              <li className="slide_list_item">Rewire a house, new lighting</li>
+              <li className="slide_list_item">Installations of household items</li>
+              <li className="slide_list_item">Outlets and switches</li>
+              <li className="slide_list_item">Attic and ceiling fans</li>
+              <li className="slide_list_item">Outdoor wiring</li>
+            </ul>
+          </div>
           <img src={slide1} alt="Agir Security Solutions"/>
         </div>
         <div>
+          <div className="slide_text">
+            <h2 className="slide_title">Installation Services</h2>
+            <ul className="slide_list">
+              <li className="slide_list_item">TV</li>
+              <li className="slide_list_item">Security Cameras</li>
+              <li className="slide_list_item">Burglar Alarms</li>
+              <li className="slide_list_item">Central Vacuum</li>
+              <li className="slide_list_item">Home Theater</li>
+              <li className="slide_list_item">Sound Installation</li>
+            </ul>
+          </div>
           <img src={slide2} alt="Agir Security Solutions"/>
         </div>
         <div>
+          <div className="slide_text">
+            <h2 className="slide_title">Maintenance</h2>
+            <ul className="slide_list">
+              <li className="slide_list_item">Emergency calls</li>
+              <li className="slide_list_item">Troubleshooting</li>
+              <li className="slide_list_item">Upgrading</li>
+            </ul>
+          </div>
           <img src={slide3} alt="Agir Security Solutions"/>
         </div>
       </Carousel>

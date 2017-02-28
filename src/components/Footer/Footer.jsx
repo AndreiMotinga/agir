@@ -11,7 +11,7 @@ const Footer = () => {
             <em>2755 Harway Ave, Brooklyn, NY 11214</em>
           </a>
           <br />
-          Phone <a class="phone-mobile" href="tel:1-718-676-0564">1(718) 676-0564<br/></a>
+          Phone <a href="tel:1-718-676-0564">1(718) 676-0564<br/></a>
           Email <a href="mailto:agirssinc@gmail.com">agirssinc@gmail.com</a>
         </p>
       </div>
