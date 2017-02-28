@@ -1,8 +1,16 @@
 @import '../../css/base/variables';
 
 .Service {
+  text-align: justify;
+  text-justify: inter-word;
+
   .Service_img {
     float: left;
-    padding-right: $base-spacing;
+    margin-right: $base-spacing;
+
+    @media screen and (max-width: 570px) {
+      width: 100%;
+      margin-bottom: $small-spacing;
+    }
   }
 }
