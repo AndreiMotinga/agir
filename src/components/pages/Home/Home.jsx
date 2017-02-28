@@ -21,6 +21,7 @@ const Home = (props) => {
         showThumbs={false}
         showStatus={false}
         infiniteLoop
+        autoPlay
       >
         <div>
           <div className="slide_text">
