@@ -18,9 +18,9 @@ class Header extends React.Component {
     }, 1000)
   }
 
-    componentWillUnmount () {
-      this.timeouts.forEach(clearTimeout);
-    }
+  componentWillUnmount () {
+    this.timeouts.forEach(clearTimeout);
+  }
 
   render () {
     const isUp = this.state.mounted ? 'logo js-brand is-up' : 'logo js-brand'
