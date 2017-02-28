@@ -5,43 +5,40 @@
   background-position: center;
 
   .Header_content {
-    display: flex;
-    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
 
-    .Header_img {
-      height: 160px;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    .logo {
+      margin-top: $small-spacing;
+      width: 0;
+    }
 
-      img {
-        width: 80%;
-        margin: 50px auto;
+    .logo.is-up {
+      width: 300px;
+      margin-top: 0;
 
-        @media screen and (max-width: 500px) {
-          margin-top: 5px;
-        }
-      }
-
-      .is-up {
-        width: 100%;
-        margin-top: 20px;
-
-        transition: all 1.5s $base-timing;
-      }
+      transition: all 1.5s $base-timing;
     }
 
     .Header_text {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
       color: $yellow;
       font-size: 1em;
 
       .name {
-        display: block;
         font-size: $base-font-size * 1.5;
+        letter-spacing: 2px;
+      }
+    }
+
+    .Header_phone {
+      position: absolute;
+      right: 0;
+      top: 30%;
+
+      @media screen and(max-width: 760px) {
+        display: none;
       }
     }
   }

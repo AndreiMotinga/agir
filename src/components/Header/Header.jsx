@@ -23,25 +23,27 @@ class Header extends React.Component {
     }
 
   render () {
-    const isUp = this.state.mounted ? 'js-brand is-up' : 'js-brand'
+    const isUp = this.state.mounted ? 'logo js-brand is-up' : 'logo js-brand'
 
     return (
       <div className="Header">
         <div className="Header_content">
-          <div className="Header_img">
-            <Link to="/">
-              <img
-                className={isUp}
-                src={logo}
-                alt="Agir solutions"
-                onLoad={this.handleImageLoaded}
-              />
-            </Link>
-          </div>
+          <Link to="/">
+            <img
+              className={isUp}
+              src={logo}
+              alt="Agir solutions"
+              onLoad={this.handleImageLoaded}
+            />
+          </Link>
           <h1 className="Header_text">
-            <span className="name">Agir</span>
-            <span className="small">Security Solutions Inc</span>
+            <span className="name">Agir</span> <span>Security Solutions Inc</span>
           </h1>
+          <a className="Header_phone" href="tel:1-718-676-0564">
+            <h3>+1(718)676-0564</h3>
+            <h6>9:00 AM - 7:00 PM</h6>
+            <small></small>
+          </a>
         </div>
         <div className="Header_borderBottom"></div>
       </div>
