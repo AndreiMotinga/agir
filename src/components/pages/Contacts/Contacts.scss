@@ -3,20 +3,21 @@
 .Contacts {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .Contacts_address,
 .Contacts_form {
-  margin: $small-spacing;
+  display: inline-block;
+  margin: $small-spacing / 2;
+  min-width: 240px;
 }
 
 .Contacts_address {
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .Contacts_form {
-  flex: 2;
+  flex: 2 2 auto;
 }
 
 .Contacts_map {

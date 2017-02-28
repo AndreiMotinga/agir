@@ -19,7 +19,7 @@ const Contacts = () => {
       </div>
       <div className="Contacts_address">
         <Panel title="Address">
-          <strong>Agir Security Solutions Inc.</strong>
+          <strong>Agir Security Solutions Inc.</strong> <br/>
           <a href="http://maps.google.com/?q=2755+Harway+Ave+Brooklyn+NY"
              target="_blank" >
             {' '}
