@@ -1,8 +1,8 @@
 @import '../../css/base/variables';
 
-// .Service {
-//   p {
-//     font-family: 'Arial';
-//     color: $gray;
-//   }
-// }
+.Service {
+  .Service_img {
+    float: left;
+    padding-right: $base-spacing;
+  }
+}

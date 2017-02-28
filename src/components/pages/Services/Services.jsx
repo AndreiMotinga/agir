@@ -13,19 +13,7 @@ const Services = ({ match }) => {
 
   return (
     <div className="Services">
-      <div className="Services_sidebar">
-        <Panel title="Services">
-          <ul className="Services_sidebar_menu">
-            <li><Link to="/services/security">Security</Link></li>
-            <li><Link to="/services/structured-wiring">Structure Wiring</Link></li>
-            <li><Link to="/services/window-treatment">Window Treatment</Link></li>
-            <li><Link to="/services/interior-design">Interior Design</Link></li>
-          </ul>
-        </Panel>
-      </div>
-      <div className="Services_service">
-        {services}
-      </div>
+      {services}
     </div>
   )
 }
