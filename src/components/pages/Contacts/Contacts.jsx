@@ -30,7 +30,7 @@ const Contacts = () => {
                   rows="10"
                   placeholder="Message:"
                   required ></textarea>
-            <button type="Submit">Send Message</button>
+            <button className="btn" type="Submit">Send Message</button>
           </form>
         </Panel>
       </div>

@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Service from '../../Service'
-import Panel from '../../Panel'
 import './Services.css'
 import data from './data.json'
 
