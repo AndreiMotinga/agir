@@ -8,13 +8,29 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
+  @media screen and (max-width: 670px) {
+    padding: $small-spacing;
+    justify-content: center;
+    text-align: center;
+  }
+
   ul {
     margin: 0;
     padding: 0;
   }
 
+  a {
+    color: darken($action-color, 20%);
+
+    &:hover {
+      color: $action-color;
+    }
+  }
+}
+
+.Footer_address {
   h3 {
-    font-family: $base-font-family;
+    color: $base-font-color;
   }
 }
 
@@ -24,16 +40,16 @@
   li {
     display: inline-block;
     margin-bottom: $small-spacing;
+    margin-top: $small-spacing;
 
     a {
       padding: $small-spacing;
       border-radius: 50%;
-      color: $action-color;
 
       &:hover {
-        background: darken($yellow, 10%);
+        background: $action-color;
         color: $black;
-        transition: color, background 0.5s $base-timing;
+        transition: background 0.5s $base-timing;
       }
     }
   }

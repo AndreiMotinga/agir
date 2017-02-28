@@ -5,15 +5,14 @@ const Footer = () => {
   return (
     <div className="Footer">
       <div className="Footer_address">
-        <p>
-          <a href="http://maps.google.com/?q=2755+Harway+Ave+Brooklyn+NY"
-             target="_blank" >
-            <em>2755 Harway Ave, Brooklyn, NY 11214</em>
-          </a>
-          <br />
-          Phone <a href="tel:1-718-676-0564">1(718) 676-0564<br/></a>
-          Email <a href="mailto:agirssinc@gmail.com">agirssinc@gmail.com</a>
-        </p>
+        <h3>Agir Security Solutions Inc.</h3>
+        <a href="http://maps.google.com/?q=2755+Harway+Ave+Brooklyn+NY"
+           target="_blank" >
+          <em>2755 Harway Ave, Brooklyn, NY 11214</em>
+        </a>
+        <br />
+        <i className="fa fa-phone"></i> <a href="tel:1-718-676-0564">1(718) 676-0564<br/></a>
+        <i className="fa fa-envelope-o"></i> <a href="mailto:agirssinc@gmail.com">agirssinc@gmail.com</a>
       </div>
 
       <div className="Footer_links">
