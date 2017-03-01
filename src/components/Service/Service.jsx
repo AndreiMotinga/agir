@@ -3,8 +3,9 @@ import Panel from '../Panel'
 import './Service.css'
 
 const Service = (props) => {
+  const url = "https://s3.amazonaws.com/ezworks-agir/services/"
   let { image, title, text } = props.service
-  if(image) image = <img className="Service_img" src={image} alt={title}/>
+  if(image) image = <img className="Service_img" src={`${url}${image}`} alt={title}/>
 
   return (
     <div className="Service">
