@@ -1,4 +1,3 @@
-import 'normalize.css' // todo: prost-prod either remove or move to proper place
 import './css/index.css';
 
 import React from 'react';
