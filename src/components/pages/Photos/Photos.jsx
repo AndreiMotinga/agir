@@ -3,19 +3,24 @@ import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const Photos = () => {
+  const url = "https://s3.amazonaws.com/ezworks-agir/photos/"
   const images = [
     {
-      original: 'http://lorempixel.com/1000/600/nature/1/',
-      thumbnail: 'http://lorempixel.com/250/150/nature/1/',
+      original: `${url}1.jpg`,
+      thumbnail: `${url}1.jpg`,
     },
     {
-      original: 'http://lorempixel.com/1000/600/nature/2/',
-      thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+      original: `${url}2.jpg`,
+      thumbnail: `${url}2.jpg`,
     },
     {
-      original: 'http://lorempixel.com/1000/600/nature/3/',
-      thumbnail: 'http://lorempixel.com/250/150/nature/3/'
-    }
+      original: `${url}3.jpg`,
+      thumbnail: `${url}3.jpg`,
+    },
+    {
+      original: `${url}4.jpg`,
+      thumbnail: `${url}4.jpg`,
+    },
   ]
   return (
     <ImageGallery
