@@ -1,6 +1,5 @@
 import React from 'react'
 import Service from '../../Service'
-import './Services.css'
 import data from './data.json'
 
 const Services = ({ match }) => {
