@@ -18,7 +18,7 @@ const Nav = () => {
           <a href="#">SERVICES</a>
           <ul className="Nav_menu_submenu">
             <li><Link to="/services/security">SECURITY</Link></li>
-            <li><Link to="/services/structured-wiring">STRUCTURE WIRING</Link></li>
+            <li><Link to="/services/structured-wiring">STRUCTURED WIRING</Link></li>
             <li><Link to="/services/window-treatment">WINDOW TREATMENT</Link></li>
             <li><Link to="/services/interior-design">INTERIOR DESIGN</Link></li>
           </ul>

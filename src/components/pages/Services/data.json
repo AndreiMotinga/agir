@@ -23,7 +23,7 @@
         {
           "image": "access-control.png",
           "title":  "Access control",
-          "text": "An authorized user carries a credit card size pass card or badge and presents it to a swipe style reader or a proximity reader. This card reader transmits the information contained on the card to the database, which recognizes the user and grants or denies access. The new “Smart Card” technology allows the user to use their card or badge not only for access but also for purchasing transactions such as cafeteria meals, book store purchases and other purchases at authorized locations."
+          "text": "Access control is any mechanism or system that manages access through the authorization or revocation of rights to physical or logical assets within an organization. An authorized user carries a credit card size pass card or badge and presents it to a swipe style reader or a proximity reader. This card reader transmits the information contained on the card to the database, which recognizes the user and grants or denies access. The new “Smart Card” technology allows the user to use their card or badge not only for access but also for purchasing transactions such as cafeteria meals, book store purchases and other purchases at authorized locations."
         }
       ]
     },
