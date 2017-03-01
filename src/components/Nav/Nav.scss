@@ -41,12 +41,12 @@
         background-color: $light-black;
       }
 
-      @media screen and (max-width: 410px) {
-        padding: $base-spacing / 1.5;
+      @media screen and(max-width: 425px) {
+        padding: $base-spacing / 2;
       }
 
-      @media screen and (max-width: 330px) {
-        padding: $base-spacing / 3;
+      @media screen and(max-width: 330px) {
+        font-size: 12px;
       }
     }
   }
