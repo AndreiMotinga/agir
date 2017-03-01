@@ -5,6 +5,11 @@ import './Contacts.css'
 const Contacts = () => {
   return (
     <div>
+    <Panel>
+      Thank you for visiting Agir Security Solutions.
+      If you have any questions or need help with any sort of electrical equipment, please let us know.
+      We’ll be happy to provide you with all the information needed and the best service possible.
+    </Panel>
     <div className="Contacts">
       <div className="Contacts_form">
         <Panel title="Contact Form">
