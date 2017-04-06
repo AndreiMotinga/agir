@@ -2,11 +2,11 @@
   "categories": [
 
     {
-      "id": "security",
+      "id": "electrical",
       "services": [
         {
           "image": "alarms.png",
-          "title": "Alarm Systems",
+          "title": "Electrical",
           "text": "Agir Security Solutions understands the importance of your safety. Protecting your home against unwanted company is our primary goal.  Home intrusion happens unexpectedly and can be extremely disheartening.  Agir offers its clients effective and reliable solutions to alarm systems.  Our alarm systems are designed to effectively detect intrusion and unauthorized entry into your home and alert you and the authorities. Intrusion alarm systems may be combined with closed-circuit television surveillance systems to automatically record the activities of intruders. They may also interface to access control systems for electrically locked doors. Alarm systems range from small, self-contained noisemakers, to complicated, multi-area systems with computer monitoring and remote control. Why wait until it’s too late? Schedule a consultation today to learn more about how an effective alarm system can bring your family or business the security it needs."
          },
 
@@ -30,7 +30,7 @@
 
 
     {
-      "id": "structured-wiring",
+      "id": "low-voltage",
       "services": [
         {
           "image": "audio-video.png",
@@ -52,7 +52,7 @@
     },
 
     {
-      "id": "window-treatment",
+      "id": "design-services",
       "services": [
         {
           "image": "curtains.png",
@@ -68,7 +68,7 @@
     },
 
     {
-      "id": "interior-design",
+      "id": "it-services",
       "services": [
         {
           "image": "corporate-design.png",
@@ -84,6 +84,27 @@
           "image": "residential-design.png",
           "title": "Residential design",
           "text": "Residential design is the design of the interior of private residences. As this type design is very specific for individual situations, the needs and wants of the individual are paramount in this area of interior design. The interior designer may work on the project from the initial planning stage or may work on the remodelling of an existing structure. It is often a very involved process that takes months to fine tune and create a space with the vision of the client."
+        }
+      ]
+    },
+
+    {
+      "id": "home-office-automation",
+      "services": [
+        {
+          "image": "corporate-design.png",
+          "title": "Corporate Design",
+          "text": "HOME"
+        },
+        {
+          "image": "space.gif",
+          "title": "Space Planning",
+          "text": "OFFICE"
+        },
+        {
+          "image": "residential-design.png",
+          "title": "Residential design",
+          "text": "automation"
         }
       ]
     }

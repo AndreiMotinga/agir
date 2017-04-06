@@ -17,10 +17,11 @@ const Nav = () => {
         <li>
           <a href="#">SERVICES</a>
           <ul className="Nav_menu_submenu">
-            <li><Link to="/services/security">SECURITY</Link></li>
-            <li><Link to="/services/structured-wiring">STRUCTURED WIRING</Link></li>
-            <li><Link to="/services/window-treatment">WINDOW TREATMENT</Link></li>
-            <li><Link to="/services/interior-design">INTERIOR DESIGN</Link></li>
+            <li><Link to="/services/electrical">ELECTRICAL</Link></li>
+            <li><Link to="/services/low-voltage">LOW VOLTAGE</Link></li>
+            <li><Link to="/services/design-services">DESIGN SERVICES</Link></li>
+            <li><Link to="/services/it-services">IT SERVICES</Link></li>
+            <li><Link to="/services/home-office-automation">HOME/OFFICE AUTOMATION</Link></li>
           </ul>
         </li>
         <li><Link to="/contacts">CONTACT US</Link></li>
