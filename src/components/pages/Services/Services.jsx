@@ -3,14 +3,11 @@ import Service from '../../Service'
 import data from './data.json'
 
 const Services = ({ match }) => {
-  const categories = data.categories.find((obj) => obj.id === match.params.id)
-    const services = categories.services.map((s, i) => (
-      <Service service={s} key={i} />)
-    )
+  let service = data.categories.find((obj) => obj.id === match.params.id)
 
   return (
     <div className="Services">
-      {services}
+      <Service service={service} />
     </div>
   )
 }

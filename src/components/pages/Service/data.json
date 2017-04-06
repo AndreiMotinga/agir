@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "id": "electrical",
+      "image": "alarms.png",
+      "title": "Electrical",
+      "text": ""
+    },
+    {
+      "id": "low-voltage",
+      "image": "audio-video.png",
+      "title":  "Low Voltage",
+      "text": ""
+    },
+
+    {
+      "id": "design-services",
+      "image": "curtains.png",
+      "title":  "Design Services",
+      "text": "desgin services text"
+    },
+
+    {
+      "id": "it-services",
+      "image": "corporate-design.png",
+      "title": "IT Services",
+      "text": ""
+    },
+    {
+      "id": "home-office-automation",
+      "image": "corporate-design.png",
+      "title": "Home/Office Automation",
+      "text": "HOME"
+    }
+  ]
+}

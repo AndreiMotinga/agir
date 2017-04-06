@@ -1,93 +1,32 @@
 {
   "categories": [
-
     {
       "id": "electrical",
-      "services": [
-        {
-          "image": "alarms.png",
-          "title": "Electrical",
-          "text": "Agir Security Solutions understands the importance of your safety. Protecting your home against unwanted company is our primary goal.  Home intrusion happens unexpectedly and can be extremely disheartening.  Agir offers its clients effective and reliable solutions to alarm systems.  Our alarm systems are designed to effectively detect intrusion and unauthorized entry into your home and alert you and the authorities. Intrusion alarm systems may be combined with closed-circuit television surveillance systems to automatically record the activities of intruders. They may also interface to access control systems for electrically locked doors. Alarm systems range from small, self-contained noisemakers, to complicated, multi-area systems with computer monitoring and remote control. Why wait until it’s too late? Schedule a consultation today to learn more about how an effective alarm system can bring your family or business the security it needs."
-         },
-
-        {
-          "image": "security-cameras.png",
-          "title":  "Security Cameras",
-          "text": "Having the ability to monitor and record activity when you are not around is invaluable. Agir Security Solutions is a recognized supplier of security and surveillance solutions to homeowners and businesses of all sizes.  As a market leader in video surveillance services, we have the experience and dedication to ensure you have the best possible solution for your security needs.  How do we do this? Agir Security Solutions offers a variety of security solutions for your home or business giving us the ability to custom tailor a solution perfectly fit for you. Standard security and video surveillance systems, also commonly known as “(CCTV) Closed-Circuit Television”, consist of a camera, monitor, and digital video recorder (DVR).  With industry leading technology and innovative solutions, Agir Security Solutions gives you security and safety where you need it most. Agir Security Solutions has mastered all surveillance equipment and techniques to give each client the security solution they need. "
-        },
-        {
-          "image": "intercoms.png",
-          "title":  "Intercoms",
-          "text": "Intercoms are electronic communications systems which consist of fixed microphone/speaker units that connect to a central control device. There are two basic types of products: hard wired and wireless. Hard wired intercoms are connected by cables and are installed in buildings, apartments, offices, and manufacturing facilities. Wireless intercoms rely upon radio frequency (RF) transmission and are used in television stations, broadcast control vehicles, power plants, and communications facilities."
-        },
-        {
-          "image": "access-control.png",
-          "title":  "Access control",
-          "text": "Access control is any mechanism or system that manages access through the authorization or revocation of rights to physical or logical assets within an organization. An authorized user carries a credit card size pass card or badge and presents it to a swipe style reader or a proximity reader. This card reader transmits the information contained on the card to the database, which recognizes the user and grants or denies access. The new “Smart Card” technology allows the user to use their card or badge not only for access but also for purchasing transactions such as cafeteria meals, book store purchases and other purchases at authorized locations."
-        }
-      ]
+      "image": "alarms.png",
+      "title": "Electrical",
+      "text": "Agir Security Solutions understands the importance of your safety. Protecting your home against unwanted company is our primary goal.  Home intrusion happens unexpectedly and can be extremely disheartening.  Agir offers its clients effective and reliable solutions to alarm systems.  Our alarm systems are designed to effectively detect intrusion and unauthorized entry into your home and alert you and the authorities. Intrusion alarm systems may be combined with closed-circuit television surveillance systems to automatically record the activities of intruders. They may also interface to access control systems for electrically locked doors. Alarm systems range from small, self-contained noisemakers, to complicated, multi-area systems with computer monitoring and remote control. Why wait until it’s too late? Schedule a consultation today to learn more about how an effective alarm system can bring your family or business the security it needs."
     },
-
 
     {
       "id": "low-voltage",
-      "services": [
-        {
-          "image": "audio-video.png",
-          "title":  "Audio/ Video connecting",
-          "text": "With the proliferation of new technologies available to homeowners, residential cabling will have to be upgraded to match these advances. Consumer products such as WebTV, Internet Phone, and games over the Internet will require wiring to handle the amount of information traveling through them. The standard home today uses wiring designed 50 years ago for applications that did not exist at that time. Homes must be wired for the requirements of today's homeowners as well as for products not yet designed."
-        },
-        {
-          "image": "tv.png",
-          "title":  "Cable TV / Satellite",
-          "text": "Just bought a new Smart Tv 3D LCD Plasma panel TV and looking to have it installed on your wall ? Looking to build a home theater but don't know where to start? Give us a call for all of your installation needs. From the very simplest of jobs, to advanced A/V design, we do it all, and for about half the price of the \"big box\" stores. Call us today for a free estimate! We can mount your TV on the wall, and run all cables and wires in wall or run removable plastic molding for a neat, clean installation. Your TV can be mounted on just about any surface, from a standard drywall to brick or concrete.Renting your place? Not to worry, our professional techniques and wall plates won’t leave a mess behind when you leave. We can provide a low profile mount, tilting mount, or full motion articulating mount at about half the cost of the big box stores. Specializing in Home Theater and surround sound systems, we can integrate and mount your existing 5.1 or 7.1 surround sound speakers on wall. Anything from generic speakers, Bose systems, home theaters in a box, can be mounted cleanly and without any wires showing."
-        },
-
-        {
-          "image": "network.gif",
-          "title":  "Network / Phone wiring",
-          "text": "Installing a telephone line requires electrical knowledge and skill. Ensuring that the job is done right the first time saves you time and money. Our Agir electricians have installed many telephone lines for commercial businesses in the area for more than 20 years. We install telephone wiring for organizations of all sizes. We also work on re-installations and extensions to existing phone systems. Telephone networking services for businesses enable seamless communication among departments within an organization. Business phone systems also make coordination easier for organizations with multiple departments that are spread out in an office building. Installing a business telephone network offers many advantages that improve productivity. Our electricians are experts in phone system installation, connectivity, cabling, wiring and more."
-        }
-      ]
+      "image": "audio-video.png",
+      "title":  "Audio/ Video connecting",
+      "text": "With the proliferation of new technologies available to homeowners, residential cabling will have to be upgraded to match these advances. Consumer products such as WebTV, Internet Phone, and games over the Internet will require wiring to handle the amount of information traveling through them. The standard home today uses wiring designed 50 years ago for applications that did not exist at that time. Homes must be wired for the requirements of today's homeowners as well as for products not yet designed."
     },
 
     {
       "id": "design-services",
-      "services": [
-        {
-          "image": "curtains.png",
-          "title":  "Motorized Curtains",
-          "text": "Agir Security Solutions specializes in creating the style, control and energy efficiency that everyone deserves in their window treatments. Agir Security Solutions is sure to have the perfect window treatment for your needs using materials from the best brands in the industry. Style or fashion enhancements, ease of operation or group control, integration of your window treatments with your home automation system. Agir Security Solutions embraces the opportunity to make your buying experience as easy as possible. Call us today and allow our experts to personalize any design."
-        },
-        {
-          "image":  "shades.png",
-          "title":  "Motorized Shades",
-          "text": "Motorized window coverings offer convenience, control, and sophistication, as virtually all custom window treatments can be motorized. Whether it is motorized roller shades, electric blinds, automatic draperies, or roman shades, we have the expertise to configure, fabricate and install. Motorized window treatments are available in several different power configurations: Battery Powered Operated System, DC Powered Operated System, AC Powered Operated System. To learn more, give us a call"
-        }
-      ]
+      "image": "curtains.png",
+      "title":  "Motorized Curtains",
+      "text": "Agir Security Solutions specializes in creating the style, control and energy efficiency that everyone deserves in their window treatments. Agir Security Solutions is sure to have the perfect window treatment for your needs using materials from the best brands in the industry. Style or fashion enhancements, ease of operation or group control, integration of your window treatments with your home automation system. Agir Security Solutions embraces the opportunity to make your buying experience as easy as possible. Call us today and allow our experts to personalize any design."
     },
 
     {
       "id": "it-services",
-      "services": [
-        {
-          "image": "corporate-design.png",
-          "title": "Corporate Design",
-          "text": "Retail (malls and shopping centres, department stores, specialty stores, visual merchandising and showrooms), Visual and Spatial Branding, Corporate (office design), Healthcare (hospitals, assisted living facilities, medical offices, laboratories), Hospitality and Recreation (hotels, motels, resorts, cafes, bars, restaurants, health clubs and spas), Institutional (government offices, financial institutions (banks and credit unions), schools and universities, religious facilities), Industrial facilities (manufacturing and training facilities as well as import and export facilities). Commercial design encompasses a wide range of sub specialties."
-        },
-        {
-          "image": "space.gif",
-          "title": "Space Planning",
-          "text": "Even with the optimum property, many businesses still see significant wasted expenses because of faulty space planning. Companies that need to utilize their commercial property space more efficiently, to increase productivity or to simply reorganize, have relied on Agir Security Solutions experience, creative problem solving and expert assessment, joining your business needs with the maximum potential of the corporate space. In todays highly competitive commercial real estate market, the design of your work space is a crucial key to the success of your business. Whether it be in a high rise or manufacturing facility, how you utilize space is crucial to the bottom line."
-        },
-        {
-          "image": "residential-design.png",
-          "title": "Residential design",
-          "text": "Residential design is the design of the interior of private residences. As this type design is very specific for individual situations, the needs and wants of the individual are paramount in this area of interior design. The interior designer may work on the project from the initial planning stage or may work on the remodelling of an existing structure. It is often a very involved process that takes months to fine tune and create a space with the vision of the client."
-        }
-      ]
+      "image": "corporate-design.png",
+      "title": "Corporate Design",
+      "text": "Retail (malls and shopping centres, department stores, specialty stores, visual merchandising and showrooms), Visual and Spatial Branding, Corporate (office design), Healthcare (hospitals, assisted living facilities, medical offices, laboratories), Hospitality and Recreation (hotels, motels, resorts, cafes, bars, restaurants, health clubs and spas), Institutional (government offices, financial institutions (banks and credit unions), schools and universities, religious facilities), Industrial facilities (manufacturing and training facilities as well as import and export facilities). Commercial design encompasses a wide range of sub specialties."
     },
-
     {
       "id": "home-office-automation",
       "services": [
