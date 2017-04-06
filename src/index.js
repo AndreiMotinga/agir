@@ -15,7 +15,7 @@ import Contacts from './components/pages/Contacts'
 
 ReactDOM.render(
   <BrowserRouter>
-    <div>
+    <div className="Site">
       <Header />
       <Nav />
       <div className="container">

@@ -50,6 +50,7 @@ class Home extends React.Component {
               showThumbs={false}
               showStatus={false}
               infiniteLoop
+              autoPlay
               dynamicHeight={false}
               className="presentation-mode"
             >

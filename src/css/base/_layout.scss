@@ -22,7 +22,14 @@ body {
   background-color: $bg-color;
 }
 
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .container {
+  flex: 1;
   padding: 10px;
   @media screen and(max-width: 700px) {
     padding: 0;
