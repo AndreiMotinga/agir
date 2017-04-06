@@ -6,9 +6,11 @@ const Footer = () => {
     <div className="Footer">
       <div className="Footer_address">
         <h3>Agir Security Solutions Inc.</h3>
+        <i className="fa fa-map-marker"></i>
+        {" "}
         <a href="http://maps.google.com/?q=2755+Harway+Ave+Brooklyn+NY"
            target="_blank" >
-          <em>2755 Harway Ave, Brooklyn, NY 11214</em>
+          2755 Harway Ave, Brooklyn, NY 11214
         </a>
         <br />
         <i className="fa fa-phone"></i> <a href="tel:1-718-676-0564">1(718) 676-0564<br/></a>

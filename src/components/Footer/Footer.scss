@@ -32,6 +32,10 @@
   h3 {
     color: $base-font-color;
   }
+
+  .fa {
+    width: 16px;
+  }
 }
 
 .Footer_links {
@@ -62,4 +66,5 @@
       transition: color $base-duration $base-timing;
     }
   }
+
 }
