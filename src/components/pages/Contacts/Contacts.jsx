@@ -13,7 +13,7 @@ const Contacts = () => {
     <div className="Contacts">
       <div className="Contacts_form">
         <Panel title="Contact Form">
-          <form action="https://formspree.io/andrew.motinga@gmail.com" method='post'>
+          <form action="https://formspree.io/agirssinc@gmail.com" method='post'>
             <input type="text" name="name" placeholder="Name: " required />
             <input type="email" name="email" placeholder="Email:" required />
             <input type="phone" name="phone" placeholder="Phone:" required />
