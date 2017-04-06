@@ -15,14 +15,18 @@ body {
 
 body {
   height: 100%;
-  background-image: radial-gradient(circle , #252424, black);
+  background-image: url(../img/wire.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position-y: 80%;
+}
+
+.container {
+  padding: 50px;
 }
 
 main {
   margin: 0 auto;
-  margin-top: 40px;
   padding: $base-spacing;
   max-width: 900px;
 }

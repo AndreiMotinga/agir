@@ -18,13 +18,15 @@ ReactDOM.render(
     <div>
       <Header />
       <Nav />
-      <main>
-        <Route exact path="/" component={Home}/>
-        <Route path="/our-work/photos" component={Photos}/>
-        <Route path="/our-work/videos" component={Videos}/>
-        <Route path="/contacts" component={Contacts}/>
-        <Route path="/services/:id" component={Services}/>
-      </main>
+      <div className="container">
+        <main>
+          <Route exact path="/" component={Home}/>
+          <Route path="/our-work/photos" component={Photos}/>
+          <Route path="/our-work/videos" component={Videos}/>
+          <Route path="/contacts" component={Contacts}/>
+          <Route path="/services/:id" component={Services}/>
+        </main>
+      </div>
       <Footer />
     </div>
   </BrowserRouter>,
