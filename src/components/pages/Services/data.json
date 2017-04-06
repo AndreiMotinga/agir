@@ -4,48 +4,34 @@
       "id": "electrical",
       "image": "alarms.png",
       "title": "Electrical",
-      "text": "Agir Security Solutions understands the importance of your safety. Protecting your home against unwanted company is our primary goal.  Home intrusion happens unexpectedly and can be extremely disheartening.  Agir offers its clients effective and reliable solutions to alarm systems.  Our alarm systems are designed to effectively detect intrusion and unauthorized entry into your home and alert you and the authorities. Intrusion alarm systems may be combined with closed-circuit television surveillance systems to automatically record the activities of intruders. They may also interface to access control systems for electrically locked doors. Alarm systems range from small, self-contained noisemakers, to complicated, multi-area systems with computer monitoring and remote control. Why wait until it’s too late? Schedule a consultation today to learn more about how an effective alarm system can bring your family or business the security it needs."
+      "text": "<p>If your project requires electrical work in the New York metropolitan area, Agir Security can help. We will take on any job no matter how big or small it is. Whether you need a simple ceiling fan installation, or you are looking to have a building re-wired, our professional team of electricians can help you with all of your electrical needs.</p><p> Agir Security has been serving the New York Metro area for over 3 years. We believe in offering excellent service at affordable prices, and have built a strong reputation in the area by keeping these values since our business first opened in 2014. We are dedicated to providing our customers with the highest level of electrical services, no matter what the job involves.</p><p> Whether your electrical needs are big or small, Agir Security is ready to help. Contact us today and our team of qualified electricians help you with all of your residential, commercial, and industrial electrical needs. </p>"
     },
 
     {
       "id": "low-voltage",
       "image": "audio-video.png",
-      "title":  "Audio/ Video connecting",
-      "text": "With the proliferation of new technologies available to homeowners, residential cabling will have to be upgraded to match these advances. Consumer products such as WebTV, Internet Phone, and games over the Internet will require wiring to handle the amount of information traveling through them. The standard home today uses wiring designed 50 years ago for applications that did not exist at that time. Homes must be wired for the requirements of today's homeowners as well as for products not yet designed."
+      "title":  "Low Voltage",
+      "text": "<p>Agir Security designs, integrates, and deploys complete systems custom tailored to your requirements and budget. In this day and age, when technology is so rapidly evolving, it’s hard to keep track of what’s really necessary. We have experienced and trained professionals that know how to complete your installation effectively and efficiently. If you are looking for a low voltage systems provider to accommodate your needs now and in the future, we are the installation solution experts you can rely on. <p></p> We pride ourselves on our unique approach to customer service, always placing our customers first. <p></p> To speak to a professional about your project needs <a href='tel:+1(718)676-0564'>call Agir Sercurity today.<a> <p>"
     },
 
     {
       "id": "design-services",
       "image": "curtains.png",
-      "title":  "Motorized Curtains",
-      "text": "Agir Security Solutions specializes in creating the style, control and energy efficiency that everyone deserves in their window treatments. Agir Security Solutions is sure to have the perfect window treatment for your needs using materials from the best brands in the industry. Style or fashion enhancements, ease of operation or group control, integration of your window treatments with your home automation system. Agir Security Solutions embraces the opportunity to make your buying experience as easy as possible. Call us today and allow our experts to personalize any design."
+      "title":  "Design Services",
+      "text": "<p>If your company is in need of a turnkey solution or requires assistance with a challenging engineering, design, or technical problem, our experienced team of professionals will take their time to fully understand your requirements and then work with you to establish a detailed work scope along with budget requirements to tackle any design challenge. </p><p> Our team will help you formulate a tactical approach to your task, collect technical specifications, frame a design and development plan, then layout a complete deployable custom solution to meet your specific needs.</p><p> At every stage of this process you can expect streamlined, easy, and effective communication. We are always available to discuss any project specifics.</p>"
     },
 
     {
       "id": "it-services",
       "image": "corporate-design.png",
-      "title": "Corporate Design",
-      "text": "Retail (malls and shopping centres, department stores, specialty stores, visual merchandising and showrooms), Visual and Spatial Branding, Corporate (office design), Healthcare (hospitals, assisted living facilities, medical offices, laboratories), Hospitality and Recreation (hotels, motels, resorts, cafes, bars, restaurants, health clubs and spas), Institutional (government offices, financial institutions (banks and credit unions), schools and universities, religious facilities), Industrial facilities (manufacturing and training facilities as well as import and export facilities). Commercial design encompasses a wide range of sub specialties."
+      "title": "IT Services",
+      "text": "<p>We are non biased Information Technology consultants who will help you find the best solution to fit your individual needs. While most firms focus on providing you a service, our focus is YOUR business. Our objective is to assist with your technology goals to increase productivity and to improve communication, helping you do what you do best - run your business.</p><p> At Agir Security, we work closely with your business and prepare customized, affordably priced options based on your requirements. We’re flexible, responsive, and we listen. </p><p> Have a question? <a href='tel:+1(718)676-0564'>Give us a call</a> and we'll be happy to help.</p>"
     },
     {
       "id": "home-office-automation",
-      "services": [
-        {
-          "image": "corporate-design.png",
-          "title": "Corporate Design",
-          "text": "HOME"
-        },
-        {
-          "image": "space.gif",
-          "title": "Space Planning",
-          "text": "OFFICE"
-        },
-        {
-          "image": "residential-design.png",
-          "title": "Residential design",
-          "text": "automation"
-        }
-      ]
+      "image": "corporate-design.png",
+      "title": "Corporate Design",
+      "text": "<p>When you need automated equipment for your home or office, Agir Security has the solution for you. At Agir Security, we provide a variety of automated technologies and services to make your home or office experience more comfortable and convenient. From immersive home theater audio systems to elegant motorized shades, we have the right technology to meet your needs. Our experts can integrate any system in your home enabling you to control them from a device such as a smartphone or tablet. </p><p> Regardless of where you are physically located, Agir Security gives you the convenience of complete control with the touch of a button. In today’s world convenience and functionality is everything.</p><p> <a href='tel:+1(718)676-0564'>Call now to speak with one of our experts </a> about what systems are right for you. </p>"
     }
   ]
 }
