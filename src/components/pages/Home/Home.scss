@@ -3,6 +3,12 @@
 .Home {
   position: relative;
 
+  // .Panel {
+  //   .Panel_title {
+  //     font-size: 2em;
+  //   }
+  // }
+
   .Home_callBtn {
     width: 100%;
     text-align: center;
@@ -19,7 +25,7 @@
     }
   }
 
-  .carousel {
+  .carousel-container {
     margin-bottom: $base-spacing;
 
     @media screen and(max-width: 610px) {
@@ -27,30 +33,19 @@
     }
   }
 
-  .slide:first-child {
-    position: relative;
-  }
-
-  .slide_text {
-    position: absolute;
-    top: $base-spacing;
-    left: $base-spacing;
-    width: 60%;
-    z-index: 10;
-
-    .slide_title {
-      text-align: left;
-      margin-bottom: $small-spacing;
+  .carousel {
+    .slide {
+      background-color: transparent;
+      min-height: 260px;
     }
 
-    .slide_list_item {
-      text-align: left;
-      padding-left: $base-spacing;
-      list-style-position: inside;
+    .slide_title {
+      margin-top: $small-spacing;
+      margin-bottom: $base-spacing;
+    }
 
-      @media screen and (min-width: 700px) {
-        text-transform: uppercase;
-      }
+    .slide_list {
+      list-style-type: none;
     }
   }
 }
