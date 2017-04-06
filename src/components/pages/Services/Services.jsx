@@ -12,7 +12,6 @@ const Services = ({ match }) => {
   return (
     <div>
       <h3>{title}</h3>
-      {image}
       <div dangerouslySetInnerHTML={{__html: text}} />
     </div>
   )
