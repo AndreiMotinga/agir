@@ -4,19 +4,17 @@
   position: relative;
 
   .Home_callBtn {
-    position: absolute;
-    top: -50px;
     width: 100%;
     text-align: center;
+    margin-bottom: 30px;
 
     .btn.-call-us {
-      padding: 5px;
+      padding: $small-spacing ($base-spacing * 2);
       opacity: 0;
     }
 
     .btn.-large {
       opacity: 1;
-      padding: $small-spacing ($base-spacing * 2);
       transition: padding, opacity 1s $base-timing;
     }
   }

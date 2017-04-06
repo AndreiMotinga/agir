@@ -42,6 +42,9 @@ class Home extends React.Component {
         <div className="Home_callBtn">
           <a href="tel:+1(718)676-0564" className={btnClass}>Give Us a Call</a>
         </div>
+        <Panel title={details.title} align="center">
+          {details.text}
+        </Panel>
         <Carousel
           showArrows
           showThumbs={false}
@@ -88,9 +91,6 @@ class Home extends React.Component {
             <img src={slide3} alt="Agir Security Solutions"/>
           </div>
         </Carousel>
-        <Panel title={details.title}>
-          {details.text}
-        </Panel>
       </div>
     )
   }
