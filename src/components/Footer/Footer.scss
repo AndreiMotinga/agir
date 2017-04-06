@@ -1,8 +1,8 @@
 @import '../../css/base/variables';
 
 .Footer {
+  background-image: linear-gradient(black, #252424);
   padding: $base-spacing * 2;
-  margin: $base-spacing * 2;
   display: flex;
   border-top: $base-border;
   justify-content: space-between;
