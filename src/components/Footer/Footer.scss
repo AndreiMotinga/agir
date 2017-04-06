@@ -34,7 +34,7 @@
   }
 
   .fa {
-    width: 16px;
+    width: 20px;
   }
 }
 
@@ -60,6 +60,7 @@
 
   .ezworks {
     color: $base-font-color;
+    padding-left: 13px;
 
     &:hover {
       color: $action-color;

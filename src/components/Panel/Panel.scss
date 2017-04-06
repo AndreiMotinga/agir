@@ -1,6 +1,9 @@
 @import '../../css/base/variables';
 
 .Panel {
+  background-image: radial-gradient(circle , #464646, black);
+
+  background-position: center;
   border: $base-border;
   border-radius: $base-border-radius;
   margin-bottom: $base-spacing;
@@ -9,5 +12,6 @@
   .Panel_title {
     border-bottom: $base-border;
     padding-bottom: $small-spacing;
+    color: $action-color;
   }
 }

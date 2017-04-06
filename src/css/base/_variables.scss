@@ -22,6 +22,7 @@ $base-z-index: 0;
 
 // Colors
 $white: white;
+$dark-white: #cbcbcb;
 
 $light-black: rgba(0, 0, 0, 0.21);
 $black: black;
@@ -34,7 +35,7 @@ $gray: rgba(192, 192, 192, 0.16);
 $dark-gray: #1a1919;
 
 // Font Colors
-$base-font-color: $light-gray;
+$base-font-color: $dark-white;
 $action-color: $yellow;
 
 // Border

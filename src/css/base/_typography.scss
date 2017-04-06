@@ -46,3 +46,9 @@ hr {
     color: $black;
     background: $yellow;
 }
+
+.fa-phone,
+.fa-envelope-o,
+.fa-map-marker {
+  min-width: 20px;
+}
