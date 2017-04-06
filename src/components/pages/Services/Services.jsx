@@ -10,10 +10,9 @@ const Services = ({ match }) => {
   if(image) image = <img className="Service_img" src={`${url}${image}`} alt={title}/>
 
   return (
-    <div>
-      <h3>{title}</h3>
+    <Panel title={title}>
       <div dangerouslySetInnerHTML={{__html: text}} />
-    </div>
+    </Panel>
   )
 }
 
