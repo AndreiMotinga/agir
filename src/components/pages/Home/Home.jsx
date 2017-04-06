@@ -1,5 +1,5 @@
 import React from 'react';
-import Service from '../../Service'
+import Panel from '../../Panel'
 import  { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.css'
 import './Home.css'
@@ -88,7 +88,9 @@ class Home extends React.Component {
             <img src={slide3} alt="Agir Security Solutions"/>
           </div>
         </Carousel>
-        <Service service={details} />
+        <Panel title={details.title}>
+          {details.text}
+        </Panel>
       </div>
     )
   }
