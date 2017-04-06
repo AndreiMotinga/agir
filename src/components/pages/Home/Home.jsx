@@ -50,6 +50,8 @@ class Home extends React.Component {
           showThumbs={false}
           showStatus={false}
           infiniteLoop
+          dynamicHeight={false}
+          className="presentation-mode"
         >
           <div>
             <div className="slide_text">
@@ -63,29 +65,64 @@ class Home extends React.Component {
                 <li className="slide_list_item">Emergency Repairs & Maintenance</li>
               </ul>
             </div>
-            <img src={slide1} alt="Agir Security Solutions"/>
+            {/* <img src={slide1} alt="Agir Security Solutions"/> */}
           </div>
           <div>
             <div className="slide_text">
-              <h1 className="slide_title">Installation Services</h1>
+              <h1 className="slide_title"><a href="/services/low-voltage">Low Voltage</a></h1>
               <ul className="slide_list">
-                <li className="slide_list_item">TV</li>
-                <li className="slide_list_item">Security Cameras</li>
-                <li className="slide_list_item">Burglar Alarms</li>
-                <li className="slide_list_item">Central Vacuum</li>
-                <li className="slide_list_item">Home Theater</li>
-                <li className="slide_list_item">Sound Installation</li>
+                <li className="slide_list_item">Structured Cabling</li>
+                <li className="slide_list_item">Alarm Systems</li>
+                <li className="slide_list_item">Security Camera Systems</li>
+                <li className="slide_list_item">Intercom Systems</li>
+                <li className="slide_list_item">Access Control Systems</li>
+                <li className="slide_list_item">Audio/Video Systems</li>
+                <li className="slide_list_item">Telephone Systems</li>
+                <li className="slide_list_item">Paging Systems</li>
+                <li className="slide_list_item">Motorized Window Treatments</li>
+                <li className="slide_list_item">Central Vacuum Systems</li>
+                <li className="slide_list_item">Building Automation</li>
               </ul>
             </div>
-            <img src={slide2} alt="Agir Security Solutions"/>
+            {/* <img src={slide2} alt="Agir Security Solutions"/> */}
           </div>
           <div>
             <div className="slide_text">
-              <h1 className="slide_title">Maintenance</h1>
+              <h1 className="slide_title"><a href="/services/design-services">Design Services</a></h1>
               <ul className="slide_list">
-                <li className="slide_list_item">Emergency calls</li>
-                <li className="slide_list_item">Troubleshooting</li>
-                <li className="slide_list_item">Upgrading</li>
+                <li className="slide_list_item">Technology Consulting</li>
+                <li className="slide_list_item">Design and Engineering</li>
+                <li className="slide_list_item">Project Management</li>
+                <li className="slide_list_item">Space Planning</li>
+              </ul>
+            </div>
+            {/* <img src={slide3} alt="Agir Security Solutions"/> */}
+          </div>
+          <div>
+            <div className="slide_text">
+              <h1 className="slide_title"><a href="/services/it-services">IT Services</a></h1>
+              <ul className="slide_list">
+                <li className="slide_list_item">Repairs and Consulting</li>
+                <li className="slide_list_item">Network Deployment & Integration</li>
+                <li className="slide_list_item">Wireless Networks</li>
+                <li className="slide_list_item">VOIP Systems</li>
+                <li className="slide_list_item">Cloud Services</li>
+              </ul>
+            </div>
+            {/* <img src={slide3} alt="Agir Security Solutions"/> */}
+          </div>
+          <div>
+            <div className="slide_text">
+              <h1 className="slide_title"><a href="/services/home-office-automation">Home/Office Automation</a></h1>
+              <ul className="slide_list">
+                <li className="slide_list_item">Smarthome - Home Automation</li>
+                <li className="slide_list_item">Motorized Window Treatments</li>
+                <li className="slide_list_item">Pool/Spa Control</li>
+                <li className="slide_list_item">HVAC & Climate Control</li>
+                <li className="slide_list_item">Digital Signage</li>
+                <li className="slide_list_item">Custom Home Theaters</li>
+                <li className="slide_list_item">Smart Lighting Control</li>
+                <li className="slide_list_item">Intuitive Touchscreens & Remotes</li>
               </ul>
             </div>
             <img src={slide3} alt="Agir Security Solutions"/>
