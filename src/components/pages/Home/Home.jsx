@@ -34,7 +34,7 @@ class Home extends React.Component {
       text: "Founded in 2009, Agir Security Solution Inc. performs commercial, residential, industrial and service work throughout New York area and nearby states. No matter the electrical job, the experts at Agir are here to help. Our extremely knowledgeable technicians have a variety of electrical skills, including audio and video wiring expertise, to complete any electrical task quickly and professionally."
     }
 
-    let btnClass= 'btn -call-us'
+    let btnClass = 'btn -call-us'
     if (this.state.mounted) btnClass += ' -large'
 
     return (
@@ -47,17 +47,17 @@ class Home extends React.Component {
           showThumbs={false}
           showStatus={false}
           infiniteLoop
-          autoPlay
         >
           <div>
             <div className="slide_text">
-              <h1 className="slide_title">Electrical Work <span className="sm-hidden">for<br/>Homeowners</span></h1>
+              <h1 className="slide_title"><a href="/services/electrical">Electrical Work</a></h1>
               <ul className="slide_list">
-                <li className="slide_list_item">Rewire a house, new lighting</li>
-                <li className="slide_list_item">Installations of household items</li>
-                <li className="slide_list_item">Outlets and switches</li>
-                <li className="slide_list_item">Attic and ceiling fans</li>
-                <li className="slide_list_item">Outdoor wiring</li>
+                <li className="slide_list_item">Wiring & Power Distribution</li>
+                <li className="slide_list_item">Temporary Service & Service Upgrades</li>
+                <li className="slide_list_item">Panels, Switches, Receptacles, Lighting</li>
+                <li className="slide_list_item">Appliance & Specialized Equipment Wiring</li>
+                <li className="slide_list_item">Electrical Inspections</li>
+                <li className="slide_list_item">Emergency Repairs & Maintenance</li>
               </ul>
             </div>
             <img src={slide1} alt="Agir Security Solutions"/>
