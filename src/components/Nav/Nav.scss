@@ -1,6 +1,7 @@
 @import '../../css/base/variables';
 
 .Nav {
+  background-image: radial-gradient(circle , #252424, black);
   border-bottom: 1px solid $black;
 
   ul {
