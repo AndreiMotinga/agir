@@ -26,7 +26,7 @@ const Nav = () => {
         </li>
         <li><Link to="/contacts">CONTACT US</Link></li>
         <li className="sm-hidden">
-          <a href="https://www.facebook.com/search/top/?q=agir%20security%20solution" target="_blank">NEWS</a>
+          <a href="https://www.facebook.com/Agir-Security-Solution-1508484616105089" target="_blank">NEWS</a>
         </li>
       </ul>
     </nav>
