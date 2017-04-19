@@ -26,6 +26,6 @@
     "eject": "react-scripts eject",
 
     "predeploy": "npm run build",
-    "deploy": "aws s3 sync build/ s3://ezworks-agir"
+    "deploy": "aws s3 sync build/ s3://www.agirss.com"
   }
 }

@@ -3,7 +3,8 @@ import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const Photos = () => {
-  const url = "https://s3.amazonaws.com/ezworks-agir/photos/"
+  const url = "https://s3-us-west-2.amazonaws.com/www.agirss.com/photos/"
+
   const images = [
     {
       original: `${url}1.jpg`,
