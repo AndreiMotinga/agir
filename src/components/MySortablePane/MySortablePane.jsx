@@ -38,10 +38,15 @@ class MySortablePane extends Component {
   }
 
   updatePane({id, dir, size, rect}) {
+    const step = 50
     const panes = this.state.panes.map(pane => {
       if(pane.id == id) {
         pane.virtualWidth = size.width
-        pane.width = (pane.virtualWidth % 50 == 0) ? pane.virtualWidth : pane.width
+        if (pane.virtualWidth % step < 10) {
+          let remainder = pane.virtualWidth % step
+          let newWidth = remainder < (step / 2) ? pane.virtualWidth - remainder : pane.virtualWidth + remainder
+          pane.width = newWidth
+        }
         size.width = pane.width
         let el = document.getElementsByClassName(`js-pane-id-${id}`)[0]
         el.style.width = `${size.width}px`
@@ -49,6 +54,7 @@ class MySortablePane extends Component {
       return pane
     })
     this.setState({ panes: panes })
+
     let pane = this.state.panes.find(pane => pane.id == id)
     console.log("size", size.width)
     console.log("pane.width", pane.width)
@@ -60,6 +66,7 @@ class MySortablePane extends Component {
       <Pane
          className={`js-pane-id-${item.id}`}
          id={item.id}
+         key={item.id}
          width={item.width}
          height={item.height}
          style={style}
@@ -70,7 +77,7 @@ class MySortablePane extends Component {
 
     return (
       <SortablePane
-          direction="horizontal"
+          direction="vertical"
           margin={10}
           onResize={this.updatePane}
       >
